@@ -1,0 +1,37 @@
+.l-header.article {
+width: 96%;
+max-width: 720px;
+margin: 0 auto 0;
+text-align: left;
+padding-top: 10px;
+}
+
+.p-title.post a {
+font-size: 2rem;
+line-height: 2rem;
+}
+
+.p-article header {
+text-align: center;
+}
+
+.p-article header h1 {
+padding: 5px 0;
+margin: 0;
+line-height: 3.2rem;
+}
+
+.subhead {
+color: #999;
+font-size: 1.4rem;
+}
+
+.c-time {
+font-size: inherit;
+}
+
+.c-tag {
+font-size: inherit;
+margin: 0;
+padding: 0 4px;
+}
