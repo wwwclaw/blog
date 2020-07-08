@@ -11,6 +11,10 @@
         </time>
       </div>
       <span class="a-tags">
+        in
+        {{ range .Params.categories }}
+        <a href="{{ $baseurl }}/categories/{{ . | urlize }}" class="c-tag">{{ . }}</a>
+        {{ end }}
         with tags
         {{ range .Params.tags }}
         <a href="{{ $baseurl }}/tags/{{ . | urlize }}" class="c-tag">{{ . }}</a>
